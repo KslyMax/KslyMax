@@ -1,0 +1,223 @@
+
+
+body{
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#navigation-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 25px;
+    /* Adjust the padding as needed */
+}
+
+/* ======================================================== */
+.content {
+    color: #000;
+    padding: 50px;
+    background-color: #fff;
+    align-content: center;
+    backdrop-filter: blur(100px);
+    /* Adjust the blur value as per your preference */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the background color and opacity */
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* ======================================================== */
+#need-help-now {
+    padding: 100px;
+}
+
+
+/* ======================================================== */
+#services, #doctors{
+    padding: 25px 50px;
+}
+
+.icon {
+    font-size: 3rem;
+    padding: 10px;
+    color: red;
+}
+
+
+.navbar-brand img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    body {
+   
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    .navbar {
+        padding: 0 20px;
+        
+      
+     }
+    
+     .navbar-nav {
+        display: none;
+     }
+    
+     .navbar-toggler {
+        display: block;
+     }
+    #carouselExampleCaptions{
+      margin-top: 30px;
+}
+
+    #need-help-now {
+       background-color: #f8f9fa;
+       padding: 20px 0;
+    }
+   
+    #need-help-now h2 {
+       font-size: 24px;
+       margin-bottom: 10px;
+    }
+   
+    #need-help-now p {
+       font-size: 16px;
+       line-height: 1.5;
+       margin-bottom: 20px;
+    }
+   
+    #need-help-now .btn {
+       font-size: 16px;
+       padding: 8px 20px;
+    }
+    #services {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+     }
+    
+     #services h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+     }
+    
+     #services .icon-box {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+     }
+    
+     #services .icon-box .icon {
+        color: #6f42c1;
+        font-size: 48px;
+        margin-bottom: 10px;
+     }
+    
+     #services .icon-box h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+     }
+    
+     #services .icon-box p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+     }
+    
+     #services hr {
+        margin: 20px 0;
+     }
+     #about {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+     }
+    
+     #about h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+     }
+    
+     #about .section-title {
+        padding: 20px 0;
+     }
+    
+     #about .section-title p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    
+        text-align: center;
+     }
+    
+     #about .row {
+        flex-direction: column;
+     }
+    
+     #about .col-lg-6 {
+        width: 100%;
+        margin-bottom: 20px;
+     }
+    
+     #about .col-lg-6 img {
+        width: 100%;
+        height: auto;
+     }
+    
+     #about .col-lg-6 .content ul {
+        list-style-type: none;
+        padding: 0;
+     }
+    
+     #about .col-lg-6 .content ul li {
+        padding: 10px 0;
+     }
+    
+     #about .col-lg-6 .content ul li i {
+        margin-right: 10px;
+     }
+    
+     #about .col-lg-6 .content p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+     }
+     #appointment {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+     }
+    
+     #appointment h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+     }
+    
+     .conatiner {
+        max-width: 100%;
+        padding: 0 15px;
+     }
+   }
+
+   .container {
+       padding: 20px;
+   }
+   .thumb {
+       margin-bottom: 30px;
+   }
+   .thumb img {
+       width: 100%;
+   }
